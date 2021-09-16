@@ -1,0 +1,334 @@
+.max-width {
+  max-width: 1800px;
+  padding: 0 100px;
+  margin: auto;
+}
+
+.navbarContainer.sticky {
+  padding: 20px 0;
+  background: #212529;
+}
+
+.navbarContainer.sticky .logo a {
+  font-size: 18px;
+}
+
+.navbarContainer.sticky .logo a span {
+  color: #ac8704b7;
+}
+
+.navbarContainer.sticky .menu li a {
+  font-size: 16px !important;
+}
+
+.navbarContainer {
+  z-index: 2000;
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.navbarContainer .logo a {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbarContainer .max-width {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbarContainer .logo a {
+  color: #ffc800;
+}
+
+.navbarContainer .menu {
+  margin-bottom: 0;
+}
+
+.navbarContainer .menu li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbarContainer .menu li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 35px;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.navbarContainer .menu li a:hover {
+  color: #ffc800;
+}
+
+.menu-btn {
+  color: white;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+
+.home {
+  min-height: 700px;
+  background: url("/img/studio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 800;
+  position: relative;
+}
+
+.home .overlay {
+  width: 100%;
+  height: 700px;
+  background-color: #000;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.home-content {
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+}
+
+.home-content h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.home-content a {
+  padding: 15px 20px;
+  border: #ffc800;
+  border-radius: 6px;
+  font-size: 20px;
+  color: white;
+  background: #ffc800;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid #ffc800;
+  margin-top: 40px;
+}
+
+.home-content a:hover {
+  color: white;
+  text-decoration: none;
+  background: none;
+}
+
+@media (max-width: 575px) {
+  .home-content {
+    text-align: center;
+  }
+  .home-content h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .home-content a {
+    padding: 5px 10px;
+    border: #ffc800;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    background: #ffc800;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 1px solid #ffc800;
+  }
+  .home-content a:hover {
+    color: white;
+    text-decoration: none;
+    background: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+  .menu-btn i.active::before {
+    content: "\f00d";
+  }
+  .max-width {
+    padding: 0 30px;
+  }
+  .navbarContainer .menu {
+    position: fixed;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    text-align: center;
+    padding-top: 80px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .navbarContainer .menu.active {
+    left: 0;
+  }
+  .navbarContainer .menu li {
+    display: block;
+  }
+  .navbarContainer .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+}
+
+.topContent h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.section2 {
+  z-index: 1;
+}
+
+.section2 .information {
+  width: 100%;
+  height: 100%;
+}
+
+.section2 .divCircle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-color: #ffc800;
+}
+
+.section2 .divFont {
+  position: absolute;
+  top: 10px;
+  left: 27px;
+  font-size: 60px;
+  color: #fff;
+}
+
+.section2 .divFont .fas.fa-lock {
+  position: absolute;
+  top: 14px;
+  left: 8px;
+  font-size: 65px;
+  color: #fff;
+}
+
+.section3 {
+  background-color: rgba(235, 223, 223, 0.4) !important;
+  height: 100%;
+  width: 100%;
+}
+
+.section3 .allInformation .overlay {
+  background-color: #c5c515;
+  position: relative;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
+
+.section3 .allInformation .overlay span {
+  display: none !important;
+  position: absolute;
+  top: 50px;
+  font-size: 70px;
+  left: 150px;
+  color: #fff;
+}
+
+.section3 .allInformation .overlay:hover span {
+  position: absolute;
+  top: 50px;
+  font-size: 70px;
+  left: 150px;
+  color: #fff;
+  display: block !important;
+}
+
+.section3 .allInformation .image:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.section3 .allInformation .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section3 .allInformation .footer__info {
+  background-color: #fff !important;
+}
+
+.section5 {
+  background-color: #f8f9fa;
+}
+
+.section5 .teamInformation .image {
+  width: 70%;
+  border: 8px solid rgba(149, 147, 147, 0.815);
+  border-radius: 100%;
+}
+
+.section5 .teamInformation .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section5 .teamInformation .socialMedia .socialMediaLink {
+  width: 50px;
+  height: 50px;
+  background-color: #212529;
+  border-radius: 100%;
+  position: relative;
+}
+
+.section5 .teamInformation .socialMedia .socialMediaLink a {
+  font-size: 18px;
+  color: white !important;
+}
+
+.section6 {
+  height: 100px;
+}
+
+.section6 .modal {
+  position: relative;
+  z-index: 3000 !important;
+}
+
+.section7 {
+  background: url("/img/map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */
