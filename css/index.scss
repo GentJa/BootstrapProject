@@ -73,7 +73,7 @@
   background: url("/img/studio.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  // height: 100vh;
   color: white;
   display: flex;
   font-weight: 800;
@@ -309,13 +309,19 @@
 
 .section6 {
   height: 100px;
-
-  .modal {
-    position: relative;
-    z-index: 3000 !important;
-  }
 }
-
+.modal {
+  position: fixed;
+  z-index: 2002 !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  outline: 0;
+}
+.modal-open .modal {
+  z-index: 2002 !important;
+}
 .section7 {
   background: url("/img/map.jpg");
   background-size: cover;
