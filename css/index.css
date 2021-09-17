@@ -301,7 +301,7 @@
      object-fit: cover;
 }
 
-.section5 .teamInformation .socialMedia .socialMediaLink {
+.socialMediaLink {
   width: 50px;
   height: 50px;
   background-color: #212529;
@@ -309,13 +309,15 @@
   position: relative;
 }
 
-.section5 .teamInformation .socialMedia .socialMediaLink a {
+.socialMediaLink a {
   font-size: 18px;
   color: white !important;
 }
 
 .section6 {
+  background-color: red;
   height: 100px;
+  width: 100%;
 }
 
 .modal {
@@ -338,5 +340,16 @@
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+}
+
+.lastSection {
+  height: 100%;
+  width: 100%;
+  background: rgba(235, 223, 223, 0.4);
+}
+
+.lastSection .footer__info__last a {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=index.css.map */

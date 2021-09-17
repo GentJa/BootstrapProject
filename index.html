@@ -1,816 +1,793 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/timelines.css">
-        <link rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-            crossorigin="anonymous">
-        <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-            rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
-            rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/timelines.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <div class="navbarContainer">
-            <div class="max-width">
-                <div class="logo"><a href="#">Start Boot<span>strap</span></a></div>
-                <ul class="menu">
-                    <li class="text-uppercase"><a href="#">Services</a></li>
-                    <li class="text-uppercase"><a href="#">Portfolio</a></li>
-                    <li class="text-uppercase"><a href="#">about</a></li>
-                    <li class="text-uppercase"><a href="#">Team</a></li>
-                    <li class="text-uppercase"><a href="#">Contact</a></li>
-                </ul>
+    <div class="navbarContainer">
+        <div class="max-width">
+            <div class="logo"><a href="#">Start Boot<span>strap</span></a></div>
+            <ul class="menu" id="main-nav">
+                <li class="text-uppercase"><a href="#services">Services</a></li>
+                <li class="text-uppercase"><a href="#portfolio">Portfolio</a></li>
+                <li class="text-uppercase"><a href="#about">about</a></li>
+                <li class="text-uppercase"><a href="#team">Team</a></li>
+                <li class="text-uppercase"><a href="#contact">Contact</a></li>
+            </ul>
 
-                <div class="menu-btn">
-                    <i class="fas fa-bars"></i>
-                </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
+    </div>
 
-        <div class="home" id="home">
-            <div class="max-width">
-                <div class="home-content">
-                    <h3>Welcome to our studio</h3>
-                    <h1 class="text-uppercase pb-5">Its nice to meet you</h1>
-                    <a href="#">Tell me More</a>
-                </div>
+    <div class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <h3>Welcome to our studio</h3>
+                <h1 class="text-uppercase pb-5">Its nice to meet you</h1>
+                <a href="#">Tell me More</a>
             </div>
-            <div class="overlay"></div>
         </div>
+        <div class="overlay"></div>
+    </div>
 
-        <div class="section2 pt-5 pb-5">
-            <div class="topContent text-center">
-                <h1 class="text-uppercase">Services</h1>
-                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="information text-center">
-                            <div class="divCircle my-auto mx-auto">
-                                <div class="divFont">
-                                    <i class="fas fa-shopping-cart"></i>
-                                </div>
-                            </div>
-                            <div class="divFooter">
-                                <h3 class="font-weight-bold">E-Commerce</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit. Odio, quos? Quo
-                                    doloremque,
-                                    omnis autem quas totam accusantium iste
-                                    corrupti. Earum.</p>
+    <div class="section2 pt-5 pb-5" id="services">
+        <div class="topContent text-center">
+            <h1 class="text-uppercase">Services</h1>
+            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="information text-center">
+                        <div class="divCircle my-auto mx-auto">
+                            <div class="divFont">
+                                <i class="fas fa-shopping-cart"></i>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="information text-center">
-                            <div class="divCircle my-auto mx-auto">
-                                <div class="divFont">
-                                    <i class="fas fa-laptop"></i>
-                                </div>
-                            </div>
-                            <div class="divFooter">
-                                <h3 class="font-weight-bold">Responsive Design</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit. Odio, quos? Quo
-                                    doloremque,
-                                    omnis autem quas totam accusantium iste
-                                    corrupti. Earum.</p>
-                            </div>
+                        <div class="divFooter">
+                            <h3 class="font-weight-bold">E-Commerce</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Odio, quos? Quo
+                                doloremque,
+                                omnis autem quas totam accusantium iste
+                                corrupti. Earum.</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-md-4">
-                        <div class="information text-center">
-                            <div class="divCircle my-auto mx-auto">
-                                <div class="divFont">
-                                    <i class="fas fa-lock"></i>
-                                </div>
+                <div class="col-md-4">
+                    <div class="information text-center">
+                        <div class="divCircle my-auto mx-auto">
+                            <div class="divFont">
+                                <i class="fas fa-laptop"></i>
                             </div>
-                            <div class="divFooter">
-                                <h3 class="font-weight-bold">E-Commerce</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit. Odio, quos? Quo
-                                    doloremque,
-                                    omnis autem quas totam accusantium iste
-                                    corrupti. Earum.</p>
+                        </div>
+                        <div class="divFooter">
+                            <h3 class="font-weight-bold">Responsive Design</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Odio, quos? Quo
+                                doloremque,
+                                omnis autem quas totam accusantium iste
+                                corrupti. Earum.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="information text-center">
+                        <div class="divCircle my-auto mx-auto">
+                            <div class="divFont">
+                                <i class="fas fa-lock"></i>
                             </div>
+                        </div>
+                        <div class="divFooter">
+                            <h3 class="font-weight-bold">E-Commerce</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Odio, quos? Quo
+                                doloremque,
+                                omnis autem quas totam accusantium iste
+                                corrupti. Earum.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
 
-        <div class="section3 pt-5">
-            <div class="topContent text-center">
-                <h1 class="text-uppercase">PORTFOLIO</h1>
-                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="allInformation">
-                            <a href="#" data-toggle="modal"
-                                data-target="#foto1">
-                                <div class="overlay">
-                                    <span>&plus;</span>
-                                    <div class="image">
-                                        <img src="img/foto1.jpg" alt="">
-                                    </div>
+    <div class="section3 pt-5 " id="portfolio">
+        <div class="topContent text-center">
+            <h1 class="text-uppercase">PORTFOLIO</h1>
+            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="allInformation">
+                        <a href="#" data-toggle="modal" data-target="#foto1">
+                            <div class="overlay">
+                                <span>&plus;</span>
+                                <div class="image">
+                                    <img src="img/foto1.jpg" alt="">
                                 </div>
-                            </a>
-                            <div class="text-center pt-3 footer__info">
-                                <h2>Lines</h2>
-                                <p class="text-muted">Branding</p>
                             </div>
+                        </a>
+                        <div class="text-center pt-3 footer__info">
+                            <h2>Lines</h2>
+                            <p class="text-muted">Branding</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-md-4">
-                        <div class="allInformation">
-                            <a href="#" data-toggle="modal"
-                                data-target="#foto2">
-                                <div class="overlay">
-                                    <span>&plus;</span>
-                                    <div class="image">
-                                        <img src="img/foto2.jpg" alt="">
-                                    </div>
+                <div class="col-md-4">
+                    <div class="allInformation">
+                        <a href="#" data-toggle="modal" data-target="#foto2">
+                            <div class="overlay">
+                                <span>&plus;</span>
+                                <div class="image">
+                                    <img src="img/foto2.jpg" alt="">
                                 </div>
-                            </a>
-                            <div class="text-center pt-3 footer__info">
-                                <h2>Explore</h2>
-                                <p class="text-muted">Graphic Design</p>
                             </div>
+                        </a>
+                        <div class="text-center pt-3 footer__info">
+                            <h2>Explore</h2>
+                            <p class="text-muted">Graphic Design</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-md-4">
-                        <div class="allInformation">
-                            <a href="#" data-toggle="modal"
-                                data-target="#foto3">
-                                <div class="overlay">
-                                    <span>&plus;</span>
-                                    <div class="image">
-                                        <img src="img/foto3.jpg" alt="">
-                                    </div>
+                <div class="col-md-4">
+                    <div class="allInformation">
+                        <a href="#" data-toggle="modal" data-target="#foto3">
+                            <div class="overlay">
+                                <span>&plus;</span>
+                                <div class="image">
+                                    <img src="img/foto3.jpg" alt="">
                                 </div>
-                            </a>
-                            <div class="text-center pt-3 footer__info">
-                                <h2>Finish</h2>
-                                <p class="text-muted">Identity</p>
                             </div>
+                        </a>
+                        <div class="text-center pt-3 footer__info">
+                            <h2>Finish</h2>
+                            <p class="text-muted">Identity</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-md-4">
-                        <div class="allInformation">
-                            <a href="#" data-toggle="modal"
-                                data-target="#foto4">
-                                <div class="overlay">
-                                    <span>&plus;</span>
-                                    <div class="image">
-                                        <img src="img/foto4.jpg" alt="">
-                                    </div>
+                <div class="col-md-4">
+                    <div class="allInformation">
+                        <a href="#" data-toggle="modal" data-target="#foto4">
+                            <div class="overlay">
+                                <span>&plus;</span>
+                                <div class="image">
+                                    <img src="img/foto4.jpg" alt="">
                                 </div>
-                            </a>
-                            <div class="text-center pt-3 footer__info">
-                                <h2>Lines</h2>
-                                <p class="text-muted">Branding</p>
                             </div>
+                        </a>
+                        <div class="text-center pt-3 footer__info">
+                            <h2>Lines</h2>
+                            <p class="text-muted">Branding</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-md-4">
-                        <div class="allInformation">
-                            <a href="#" data-toggle="modal"
-                                data-target="#foto5">
-                                <div class="overlay">
-                                    <span>&plus;</span>
-                                    <div class="image">
-                                        <img src="img/foto5.jpg" alt="">
-                                    </div>
+                <div class="col-md-4">
+                    <div class="allInformation">
+                        <a href="#" data-toggle="modal" data-target="#foto5">
+                            <div class="overlay">
+                                <span>&plus;</span>
+                                <div class="image">
+                                    <img src="img/foto5.jpg" alt="">
                                 </div>
-                            </a>
-                            <div class="text-center pt-3 footer__info">
-                                <h2>Southwest</h2>
-                                <p class="text-muted">Website Design</p>
                             </div>
+                        </a>
+                        <div class="text-center pt-3 footer__info">
+                            <h2>Southwest</h2>
+                            <p class="text-muted">Website Design</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-md-4">
-                        <div class="allInformation">
-                            <a href="#" data-toggle="modal"
-                                data-target="#foto6">
-                                <div class="overlay">
-                                    <span>&plus;</span>
-                                    <div class="image">
-                                        <img src="img/foto6.jpg" alt="">
-                                    </div>
+                <div class="col-md-4">
+                    <div class="allInformation">
+                        <a href="#" data-toggle="modal" data-target="#foto6">
+                            <div class="overlay">
+                                <span>&plus;</span>
+                                <div class="image">
+                                    <img src="img/foto6.jpg" alt="">
                                 </div>
-                            </a>
-                            <div class="text-center pt-3 footer__info">
-                                <h2>Window</h2>
-                                <p class="muted">Photography</p>
                             </div>
+                        </a>
+                        <div class="text-center pt-3 footer__info">
+                            <h2>Window</h2>
+                            <p class="muted">Photography</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <div class="section4 pt-4 mt-5 pb-5">
-            <div class="text-center section4_top">
-                <h2 class="font-weight-bold text-uppercase">About</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="container">
-                <div class="main-timeline">
+    <div class="section4 pt-4 mt-5 pb-5" id="about">
+        <div class="text-center section4_top">
+            <h2 class="font-weight-bold text-uppercase">About</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="container">
+            <div class="main-timeline">
 
-                    <!-- start experience section-->
-                    <div class="timeline">
-                        <div class="icon"></div>
-                        <div class="date-content">
-                            <div class="date-outer" id="firstDate">
-                                <span class="date">
-                                    <!-- <span class="month">2 Years</span>
+                <!-- start experience section-->
+                <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                        <div class="date-outer" id="firstDate">
+                            <span class="date">
+                                <!-- <span class="month">2 Years</span>
                                 <span class="year">2013</span> -->
-                                </span>
-                            </div>
-                        </div>
-                        <div class="timeline-content">
-                            <h5 class="title">2009-2011
-                                Our Humble Beginnings</h5>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Sed efficitur ex sit amet massa
-                                scelerisque scelerisque. Aliquam erat volutpat.
-                                Aenean interdum finibus efficitur. Praesent
-                                dapibus dolor felis, eu ultrices elit molestie.
-                            </p>
+                            </span>
                         </div>
                     </div>
-                    <!-- end experience section-->
+                    <div class="timeline-content">
+                        <h5 class="title">2009-2011
+                            Our Humble Beginnings</h5>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Sed efficitur ex sit amet massa
+                            scelerisque scelerisque. Aliquam erat volutpat.
+                            Aenean interdum finibus efficitur. Praesent
+                            dapibus dolor felis, eu ultrices elit molestie.
+                        </p>
+                    </div>
+                </div>
+                <!-- end experience section-->
 
-                    <!-- start experience section-->
-                    <div class="timeline">
-                        <div class="icon"></div>
-                        <div class="date-content">
-                            <div class="date-outer" id="secondDate">
-                                <span class="date">
-                                    <!-- <span class="month">1 Years</span>
+                <!-- start experience section-->
+                <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                        <div class="date-outer" id="secondDate">
+                            <span class="date">
+                                <!-- <span class="month">1 Years</span>
                                 <span class="year">2015</span> -->
-                                </span>
-                            </div>
-                        </div>
-                        <div class="timeline-content">
-                            <h5 class="title">March 2011
-                                An Agency is Born</h5>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Sed efficitur ex sit amet massa
-                                scelerisque scelerisque. Aliquam erat volutpat.
-                                Aenean interdum finibus efficitur. Praesent
-                                dapibus dolor felis, eu ultrices elit molestie.
-                            </p>
+                            </span>
                         </div>
                     </div>
-                    <!-- end experience section-->
+                    <div class="timeline-content">
+                        <h5 class="title">March 2011
+                            An Agency is Born</h5>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Sed efficitur ex sit amet massa
+                            scelerisque scelerisque. Aliquam erat volutpat.
+                            Aenean interdum finibus efficitur. Praesent
+                            dapibus dolor felis, eu ultrices elit molestie.
+                        </p>
+                    </div>
+                </div>
+                <!-- end experience section-->
 
-                    <!-- start experience section-->
-                    <div class="timeline">
-                        <div class="icon"></div>
-                        <div class="date-content">
-                            <div class="date-outer" id="thirdDate">
-                                <span class="date">
-                                    <!-- <span class="month">2 Years</span>
+                <!-- start experience section-->
+                <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                        <div class="date-outer" id="thirdDate">
+                            <span class="date">
+                                <!-- <span class="month">2 Years</span>
                                 <span class="year">2016</span> -->
-                                </span>
-                            </div>
-                        </div>
-                        <div class="timeline-content">
-                            <h5 class="title">December 2015
-                                Transition to Full Service</h5>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Sed efficitur ex sit amet massa
-                                scelerisque scelerisque. Aliquam erat volutpat.
-                                Aenean interdum finibus efficitur. Praesent
-                                dapibus dolor felis, eu ultrices elit molestie.
-                            </p>
+                            </span>
                         </div>
                     </div>
-                    <!-- end experience section-->
+                    <div class="timeline-content">
+                        <h5 class="title">December 2015
+                            Transition to Full Service</h5>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Sed efficitur ex sit amet massa
+                            scelerisque scelerisque. Aliquam erat volutpat.
+                            Aenean interdum finibus efficitur. Praesent
+                            dapibus dolor felis, eu ultrices elit molestie.
+                        </p>
+                    </div>
+                </div>
+                <!-- end experience section-->
 
-                    <!-- start experience section-->
-                    <div class="timeline">
-                        <div class="icon"></div>
-                        <div class="date-content">
-                            <div class="date-outer" id="fourthDate">
-                                <span class="date">
-                                    <!-- <span class="month">2 Years</span>
+                <!-- start experience section-->
+                <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                        <div class="date-outer" id="fourthDate">
+                            <span class="date">
+                                <!-- <span class="month">2 Years</span>
                                 <span class="year">2018</span> -->
-                                </span>
-                            </div>
+                            </span>
                         </div>
-                        <div class="timeline-content">
-                            <h5 class="title">July 2020
-                                Phase Two Expansion</h5>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Sed efficitur ex sit amet massa
-                                scelerisque scelerisque. Aliquam erat volutpat.
-                                Aenean interdum finibus efficitur. Praesent
-                                dapibus dolor felis, eu ultrices elit molestie.
+                    </div>
+                    <div class="timeline-content">
+                        <h5 class="title">July 2020
+                            Phase Two Expansion</h5>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Sed efficitur ex sit amet massa
+                            scelerisque scelerisque. Aliquam erat volutpat.
+                            Aenean interdum finibus efficitur. Praesent
+                            dapibus dolor felis, eu ultrices elit molestie.
+                        </p>
+                    </div>
+                </div>
+                <!-- end experience section-->
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="section5 pb-3" id="team">
+        <div class="topContent text-center pt-4">
+            <h1 class="text-uppercase">Our amazing team </h1>
+            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="teamInformation pt-4">
+                        <div class="image mx-auto my-auto">
+                            <img src="img/team1.jpg" class="img-fluid
+                                    rounded-circle" alt="">
+                        </div>
+                        <div class="personInfo text-center">
+                            <h2>Parveen Anad</h2>
+                            <p class="text-muted">Lead Designer</p>
+                        </div>
+                        <div class="d-flex justify-content-center
+                                align-items-center socialMedia">
+
+                            <div class="ml-3 socialMediaLink pt-2
+                                    text-center"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                            <div class="ml-3 socialMediaLink pt-2
+                                    text-center"><a href="#"><i class="fab fa-facebook"></i></a></div>
+                            <div class="ml-3 socialMediaLink pt-2
+                                    text-center"><a href="#"><i class="fab fa-linkedin"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="teamInformation pt-4">
+                        <div class="image mx-auto my-auto">
+                            <img src="img/team2.jpg" class="img-fluid
+                                    rounded-circle" alt="">
+                        </div>
+                        <div class="personInfo text-center">
+                            <h2>Diana Petersen
+                            </h2>
+                            <p class="text-muted">Lead Marketer
+
                             </p>
                         </div>
-                    </div>
-                    <!-- end experience section-->
+                        <div class="d-flex justify-content-center
+                                align-items-center socialMedia">
 
+                            <div class="ml-3 socialMediaLink pt-2
+                                    text-center"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                            <div class="ml-3 socialMediaLink pt-2
+                                    text-center"><a href="#"><i class="fab fa-facebook"></i></a></div>
+                            <div class="ml-3 socialMediaLink pt-2
+                                    text-center"><a href="#"><i class="fab fa-linkedin"></i></a></div>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="col-md-4">
+                    <div class="teamInformation pt-4">
+                        <div class="image mx-auto my-auto">
+                            <img src="img/team3.jpg" class="img-fluid
+                                    rounded-circle" alt="">
+                        </div>
+                        <div class="personInfo text-center">
+                            <h2>Larry Parker
+
+                            </h2>
+                            <p class="text-muted">Lead Developer
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-center
+                                align-items-center socialMedia">
+
+                            <div class="ml-3 socialMediaLink pt-2
+                                    text-center"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                            <div class="ml-3 socialMediaLink pt-2
+                                    text-center"><a href="#"><i class="fab fa-facebook"></i></a></div>
+                            <div class="ml-3 socialMediaLink pt-2
+                                    text-center"><a href="#"><i class="fab fa-linkedin"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 textTeam pb-3 w-75 mx-auto my-auto">
+                <p class="text-center">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Aut eaque,
+                    laboriosam veritatis, quos
+                    non quis ad perspiciatis, totam corporis ea, alias ut
+                    unde.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section6">
+        <div class="container">
+
+            <div class="d-flex flex-row items justify-content-center align-items-center">
+                <div class="pt-sm-4 pt-md-4 ">
+                    <a href="#">
+                        <img src="img/microsoft.svg" width="50%" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="pt-sm-4 pt-md-4">
+                    <a href="#">
+                        <img src="img/google.svg" width="50%" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="pt-sm-4 pt-md-4">
+                    <a href="#">
+                        <img src="img/facebook.svg" width="50%" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="pt-sm-4 pt-md-4">
+                    <a href="#">
+                        <img src="img/ibm.svg" width="50%" class="img-fluid" alt="">
+                    </a>
+                </div>
+
             </div>
 
         </div>
+    </div>
 
 
 
-
-        <div class="section5 pb-3">
-            <div class="topContent text-center pt-4">
-                <h1 class="text-uppercase">Our amazing team </h1>
-                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="teamInformation pt-4">
-                            <div class="image mx-auto my-auto">
-                                <img src="img/team1.jpg" class="img-fluid
-                                    rounded-circle" alt="">
-                            </div>
-                            <div class="personInfo text-center">
-                                <h2>Parveen Anad</h2>
-                                <p class="text-muted">Lead Designer</p>
-                            </div>
-                            <div class="d-flex justify-content-center
-                                align-items-center socialMedia">
-
-                                <div class="ml-3 socialMediaLink pt-2
-                                    text-center"><a href="#"><i
-                                            class="fab fa-twitter"></i></a></div>
-                                <div class="ml-3 socialMediaLink pt-2
-                                    text-center"><a href="#"><i
-                                            class="fab fa-facebook"></i></a></div>
-                                <div class="ml-3 socialMediaLink pt-2
-                                    text-center"><a href="#"><i
-                                            class="fab fa-linkedin"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="teamInformation pt-4">
-                            <div class="image mx-auto my-auto">
-                                <img src="img/team2.jpg" class="img-fluid
-                                    rounded-circle" alt="">
-                            </div>
-                            <div class="personInfo text-center">
-                                <h2>Diana Petersen
-                                </h2>
-                                <p class="text-muted">Lead Marketer
-
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-center
-                                align-items-center socialMedia">
-
-                                <div class="ml-3 socialMediaLink pt-2
-                                    text-center"><a href="#"><i
-                                            class="fab fa-twitter"></i></a></div>
-                                <div class="ml-3 socialMediaLink pt-2
-                                    text-center"><a href="#"><i
-                                            class="fab fa-facebook"></i></a></div>
-                                <div class="ml-3 socialMediaLink pt-2
-                                    text-center"><a href="#"><i
-                                            class="fab fa-linkedin"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="teamInformation pt-4">
-                            <div class="image mx-auto my-auto">
-                                <img src="img/team3.jpg" class="img-fluid
-                                    rounded-circle" alt="">
-                            </div>
-                            <div class="personInfo text-center">
-                                <h2>Larry Parker
-
-                                </h2>
-                                <p class="text-muted">Lead Developer
-
-
-
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-center
-                                align-items-center socialMedia">
-
-                                <div class="ml-3 socialMediaLink pt-2
-                                    text-center"><a href="#"><i
-                                            class="fab fa-twitter"></i></a></div>
-                                <div class="ml-3 socialMediaLink pt-2
-                                    text-center"><a href="#"><i
-                                            class="fab fa-facebook"></i></a></div>
-                                <div class="ml-3 socialMediaLink pt-2
-                                    text-center"><a href="#"><i
-                                            class="fab fa-linkedin"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pt-5 textTeam pb-3 w-75 mx-auto my-auto">
-                    <p class="text-center">Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Aut eaque,
-                        laboriosam veritatis, quos
-                        non quis ad perspiciatis, totam corporis ea, alias ut
-                        unde.</p>
-                </div>
-            </div>
+    <div class="section7 pb-3" id="contact">
+        <div class="topContent text-center pt-4 text-white">
+            <h1 class="text-uppercase">Contact Us </h1>
+            <p class="text-white">Lorem ipsum dolor sit amet.</p>
         </div>
 
-        <div class="section6">
-            <div class="container mr-3">
-                <div class="row">
-                    <div class="d-flex justify-content-center
-                        align-items-center">
-                        <a href="#">
-                            <img src="img/microsoft.svg" width="50%"
-                                class="img-fluid" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="img/google.svg" width="50%"
-                                class="img-fluid" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="img/facebook.svg" width="50%"
-                                class="img-fluid" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="img/ibm.svg" width="50%" class="img-fluid"
-                                alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="section7 pb-3">
-            <div class="topContent text-center pt-4 text-white">
-                <h1 class="text-uppercase">Contact Us </h1>
-                <p class="text-white">Lorem ipsum dolor sit amet.</p>
-            </div>
-
-            <div class="container pt-4">
-                <div class="row">
-                    <div class="col-md-6">
-                        <form action="index.html">
-                            <div class="form-group">
-                                <input type="text" class="p-3 form-control"
-                                    id="name" required placeholder="Name">
-                            </div>
-                            <div class="form-group pt-3">
-                                <input type="email" class="p-3 form-control"
-                                    id="email" required placeholder="Email">
-                            </div>
-                            <div class="form-group pt-3">
-                                <input type="tel" class="p-3 form-control"
-                                    id="phone" placeholder="Phone" required>
-                            </div>
-                        </div>
-
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="index.html">
                         <div class="form-group">
-                            <textarea name="" id="" cols="60" placeholder="  Your
-                                message" rows="10"></textarea>
+                            <input type="text" class="p-3 form-control" id="name" required placeholder="Name">
                         </div>
-                        <div class="text-center mx-auto my-auto">
-                            <button class="btn btn-warning px-5 py-3
+                        <div class="form-group pt-3">
+                            <input type="email" class="p-3 form-control" id="email" required placeholder="Email">
+                        </div>
+                        <div class="form-group pt-3">
+                            <input type="tel" class="p-3 form-control" id="phone" placeholder="Phone" required>
+                        </div>
+                </div>
+
+                <div class="form-group">
+                    <textarea name="" id="" cols="60" placeholder="  Your message" rows="10"></textarea>
+                </div>
+                <div class="text-center mx-auto my-auto">
+                    <button class="btn btn-warning px-5 py-3
                                 text-white">Send Message</button>
-                        </div>
-                    </form>
                 </div>
-
+                </form>
             </div>
+
         </div>
+    </div>
 
 
 
 
-        <!-- Modal -->
-        <div class="modal fade" id="foto1" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal"
-                        aria-label="Close">
-                        <span aria-hidden="true" class="float-right pr-2">&times;</span>
-                    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="foto1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="float-right pr-2">&times;</span>
+                </button>
 
-                    <div class="modal-body">
-                        <div class="topInfo text-center">
-                            <h3 class="text-uppercase">Project name</h3>
-                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="image text-center">
-                            <img src="img/foto1.jpg" class="img-fluid" alt="">
-                        </div>
-                        <p class="pt-4 text-justify">Use thios deserunt
-                            repellrunt repellat aperiam quasi sunt s deserunt
-                            repellat aperiam quasi sunt
-                            officia expedita beatae cupiditaat aperiam quasi
-                            sunt s deserunt repellat aperiam quasi sunt
-                            officia expedita beatae cupiditate, maiores
-                            repudiandae, nostrum, reiciendis facere nemo!</p>
-                        <div class="footer-text text-center">
-                            <span class="font-weight-bold">Client: </span><span>Lines</span>
-                            <br>
-                            <span class="font-weight-bold">Category: </span><span>Branding</span>
-                            <div class="pt-4">
-                                <button type="button" class="px-5 py-3 btn
-                                    btn-warning text-white"
-                                    data-dismiss="modal">
-                                    &times;
-                                    Close
-                                    Project</button>
-                            </div>
+                <div class="modal-body">
+                    <div class="topInfo text-center">
+                        <h3 class="text-uppercase">Project name</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="image text-center">
+                        <img src="img/foto1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <p class="pt-4 text-justify">Use thios deserunt
+                        repellrunt repellat aperiam quasi sunt s deserunt
+                        repellat aperiam quasi sunt
+                        officia expedita beatae cupiditaat aperiam quasi
+                        sunt s deserunt repellat aperiam quasi sunt
+                        officia expedita beatae cupiditate, maiores
+                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                    <div class="footer-text text-center">
+                        <span class="font-weight-bold">Client: </span><span>Lines</span>
+                        <br>
+                        <span class="font-weight-bold">Category: </span><span>Branding</span>
+                        <div class="pt-4">
+                            <button type="button" class="px-5 py-3 btn
+                                    btn-warning text-white" data-dismiss="modal">
+                                &times;
+                                Close
+                                Project</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- modal2 -->
-        <div class="modal fade" id="foto2" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal"
-                        aria-label="Close">
-                        <span aria-hidden="true" class="float-right pr-2">&times;</span>
-                    </button>
+    <!-- modal2 -->
+    <div class="modal fade" id="foto2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="float-right pr-2">&times;</span>
+                </button>
 
-                    <div class="modal-body">
-                        <div class="topInfo text-center">
-                            <h3 class="text-uppercase">Project name</h3>
-                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="image text-center">
-                            <img src="img/foto2.jpg" class="img-fluid" alt="">
-                        </div>
-                        <p class="pt-4 text-justify">Use thios deserunt
-                            repellrunt repellat aperiam quasi sunt s deserunt
-                            repellat aperiam quasi sunt
-                            officia expedita beatae cupiditaat aperiam quasi
-                            sunt s deserunt repellat aperiam quasi sunt
-                            officia expedita beatae cupiditate, maiores
-                            repudiandae, nostrum, reiciendis facere nemo!</p>
-                        <div class="footer-text text-center">
-                            <span class="font-weight-bold">Client: </span><span>Lines</span>
-                            <br>
-                            <span class="font-weight-bold">Category: </span><span>Branding</span>
-                            <div class="pt-4">
-                                <button type="button" class="px-5 py-3 btn
-                                    btn-warning text-white"
-                                    data-dismiss="modal">
-                                    &times;
-                                    Close
-                                    Project</button>
-                            </div>
+                <div class="modal-body">
+                    <div class="topInfo text-center">
+                        <h3 class="text-uppercase">Project name</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="image text-center">
+                        <img src="img/foto2.jpg" class="img-fluid" alt="">
+                    </div>
+                    <p class="pt-4 text-justify">Use thios deserunt
+                        repellrunt repellat aperiam quasi sunt s deserunt
+                        repellat aperiam quasi sunt
+                        officia expedita beatae cupiditaat aperiam quasi
+                        sunt s deserunt repellat aperiam quasi sunt
+                        officia expedita beatae cupiditate, maiores
+                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                    <div class="footer-text text-center">
+                        <span class="font-weight-bold">Client: </span><span>Lines</span>
+                        <br>
+                        <span class="font-weight-bold">Category: </span><span>Branding</span>
+                        <div class="pt-4">
+                            <button type="button" class="px-5 py-3 btn
+                                    btn-warning text-white" data-dismiss="modal">
+                                &times;
+                                Close
+                                Project</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- modal3 -->
-        <div class="modal fade" id="foto3" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal"
-                        aria-label="Close">
-                        <span aria-hidden="true" class="float-right pr-2">&times;</span>
-                    </button>
+    <!-- modal3 -->
+    <div class="modal fade" id="foto3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="float-right pr-2">&times;</span>
+                </button>
 
-                    <div class="modal-body">
-                        <div class="topInfo text-center">
-                            <h3 class="text-uppercase">Project name</h3>
-                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="image text-center">
-                            <img src="img/foto3.jpg" class="img-fluid" alt="">
-                        </div>
-                        <p class="pt-4 text-justify">Use thios deserunt
-                            repellrunt repellat aperiam quasi sunt s deserunt
-                            repellat aperiam quasi sunt
-                            officia expedita beatae cupiditaat aperiam quasi
-                            sunt s deserunt repellat aperiam quasi sunt
-                            officia expedita beatae cupiditate, maiores
-                            repudiandae, nostrum, reiciendis facere nemo!</p>
-                        <div class="footer-text text-center">
-                            <span class="font-weight-bold">Client: </span><span>Lines</span>
-                            <br>
-                            <span class="font-weight-bold">Category: </span><span>Branding</span>
-                            <div class="pt-4">
-                                <button type="button" class="px-5 py-3 btn
-                                    btn-warning text-white"
-                                    data-dismiss="modal">
-                                    &times;
-                                    Close
-                                    Project</button>
-                            </div>
+                <div class="modal-body">
+                    <div class="topInfo text-center">
+                        <h3 class="text-uppercase">Project name</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="image text-center">
+                        <img src="img/foto3.jpg" class="img-fluid" alt="">
+                    </div>
+                    <p class="pt-4 text-justify">Use thios deserunt
+                        repellrunt repellat aperiam quasi sunt s deserunt
+                        repellat aperiam quasi sunt
+                        officia expedita beatae cupiditaat aperiam quasi
+                        sunt s deserunt repellat aperiam quasi sunt
+                        officia expedita beatae cupiditate, maiores
+                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                    <div class="footer-text text-center">
+                        <span class="font-weight-bold">Client: </span><span>Lines</span>
+                        <br>
+                        <span class="font-weight-bold">Category: </span><span>Branding</span>
+                        <div class="pt-4">
+                            <button type="button" class="px-5 py-3 btn
+                                    btn-warning text-white" data-dismiss="modal">
+                                &times;
+                                Close
+                                Project</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <!-- modal-4 -->
+    <!-- modal-4 -->
 
-        <div class="modal fade" id="foto4" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal"
-                        aria-label="Close">
-                        <span aria-hidden="true" class="float-right pr-2">&times;</span>
-                    </button>
+    <div class="modal fade" id="foto4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="float-right pr-2">&times;</span>
+                </button>
 
-                    <div class="modal-body">
-                        <div class="topInfo text-center">
-                            <h3 class="text-uppercase">Project name</h3>
-                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="image text-center">
-                            <img src="img/foto4.jpg" class="img-fluid" alt="">
-                        </div>
-                        <p class="pt-4 text-justify">Use thios deserunt
-                            repellrunt repellat aperiam quasi sunt s deserunt
-                            repellat aperiam quasi sunt
-                            officia expedita beatae cupiditaat aperiam quasi
-                            sunt s deserunt repellat aperiam quasi sunt
-                            officia expedita beatae cupiditate, maiores
-                            repudiandae, nostrum, reiciendis facere nemo!</p>
-                        <div class="footer-text text-center">
-                            <span class="font-weight-bold">Client: </span><span>Lines</span>
-                            <br>
-                            <span class="font-weight-bold">Category: </span><span>Branding</span>
-                            <div class="pt-4">
-                                <button type="button" class="px-5 py-3 btn
-                                    btn-warning text-white"
-                                    data-dismiss="modal">
-                                    &times;
-                                    Close
-                                    Project</button>
-                            </div>
+                <div class="modal-body">
+                    <div class="topInfo text-center">
+                        <h3 class="text-uppercase">Project name</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="image text-center">
+                        <img src="img/foto4.jpg" class="img-fluid" alt="">
+                    </div>
+                    <p class="pt-4 text-justify">Use thios deserunt
+                        repellrunt repellat aperiam quasi sunt s deserunt
+                        repellat aperiam quasi sunt
+                        officia expedita beatae cupiditaat aperiam quasi
+                        sunt s deserunt repellat aperiam quasi sunt
+                        officia expedita beatae cupiditate, maiores
+                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                    <div class="footer-text text-center">
+                        <span class="font-weight-bold">Client: </span><span>Lines</span>
+                        <br>
+                        <span class="font-weight-bold">Category: </span><span>Branding</span>
+                        <div class="pt-4">
+                            <button type="button" class="px-5 py-3 btn
+                                    btn-warning text-white" data-dismiss="modal">
+                                &times;
+                                Close
+                                Project</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- modal-5 -->
+    <!-- modal-5 -->
 
-        <div class="modal fade" id="foto5" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal"
-                        aria-label="Close">
-                        <span aria-hidden="true" class="float-right pr-2">&times;</span>
-                    </button>
+    <div class="modal fade" id="foto5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="float-right pr-2">&times;</span>
+                </button>
 
-                    <div class="modal-body">
-                        <div class="topInfo text-center">
-                            <h3 class="text-uppercase">Project name</h3>
-                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="image text-center">
-                            <img src="img/foto5.jpg" class="img-fluid" alt="">
-                        </div>
-                        <p class="pt-4 text-justify">Use thios deserunt
-                            repellrunt repellat aperiam quasi sunt s deserunt
-                            repellat aperiam quasi sunt
-                            officia expedita beatae cupiditaat aperiam quasi
-                            sunt s deserunt repellat aperiam quasi sunt
-                            officia expedita beatae cupiditate, maiores
-                            repudiandae, nostrum, reiciendis facere nemo!</p>
-                        <div class="footer-text text-center">
-                            <span class="font-weight-bold">Client: </span><span>Lines</span>
-                            <br>
-                            <span class="font-weight-bold">Category: </span><span>Branding</span>
-                            <div class="pt-4">
-                                <button type="button" class="px-5 py-3 btn
-                                    btn-warning text-white"
-                                    data-dismiss="modal">
-                                    &times;
-                                    Close
-                                    Project</button>
-                            </div>
+                <div class="modal-body">
+                    <div class="topInfo text-center">
+                        <h3 class="text-uppercase">Project name</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="image text-center">
+                        <img src="img/foto5.jpg" class="img-fluid" alt="">
+                    </div>
+                    <p class="pt-4 text-justify">Use thios deserunt
+                        repellrunt repellat aperiam quasi sunt s deserunt
+                        repellat aperiam quasi sunt
+                        officia expedita beatae cupiditaat aperiam quasi
+                        sunt s deserunt repellat aperiam quasi sunt
+                        officia expedita beatae cupiditate, maiores
+                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                    <div class="footer-text text-center">
+                        <span class="font-weight-bold">Client: </span><span>Lines</span>
+                        <br>
+                        <span class="font-weight-bold">Category: </span><span>Branding</span>
+                        <div class="pt-4">
+                            <button type="button" class="px-5 py-3 btn
+                                    btn-warning text-white" data-dismiss="modal">
+                                &times;
+                                Close
+                                Project</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <div class="modal fade" id="foto6" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal"
-                        aria-label="Close">
-                        <span aria-hidden="true" class="float-right pr-2">&times;</span>
-                    </button>
+    <div class="modal fade" id="foto6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="float-right pr-2">&times;</span>
+                </button>
 
-                    <div class="modal-body">
-                        <div class="topInfo text-center">
-                            <h3 class="text-uppercase">Project name</h3>
-                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="image text-center">
-                            <img src="img/foto6.jpg" class="img-fluid" alt="">
-                        </div>
-                        <p class="pt-4 text-justify">Use thios deserunt
-                            repellrunt repellat aperiam quasi sunt s deserunt
-                            repellat aperiam quasi sunt
-                            officia expedita beatae cupiditaat aperiam quasi
-                            sunt s deserunt repellat aperiam quasi sunt
-                            officia expedita beatae cupiditate, maiores
-                            repudiandae, nostrum, reiciendis facere nemo!</p>
-                        <div class="footer-text text-center">
-                            <span class="font-weight-bold">Client: </span><span>Lines</span>
-                            <br>
-                            <span class="font-weight-bold">Category: </span><span>Branding</span>
-                            <div class="pt-4">
-                                <button type="button" class="px-5 py-3 btn
-                                    btn-warning text-white"
-                                    data-dismiss="modal">
-                                    &times;
-                                    Close
-                                    Project</button>
-                            </div>
+                <div class="modal-body">
+                    <div class="topInfo text-center">
+                        <h3 class="text-uppercase">Project name</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="image text-center">
+                        <img src="img/foto6.jpg" class="img-fluid" alt="">
+                    </div>
+                    <p class="pt-4 text-justify">Use thios deserunt
+                        repellrunt repellat aperiam quasi sunt s deserunt
+                        repellat aperiam quasi sunt
+                        officia expedita beatae cupiditaat aperiam quasi
+                        sunt s deserunt repellat aperiam quasi sunt
+                        officia expedita beatae cupiditate, maiores
+                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                    <div class="footer-text text-center">
+                        <span class="font-weight-bold">Client: </span><span>Lines</span>
+                        <br>
+                        <span class="font-weight-bold">Category: </span><span>Branding</span>
+                        <div class="pt-4">
+                            <button type="button" class="px-5 py-3 btn
+                                    btn-warning text-white" data-dismiss="modal">
+                                &times;
+                                Close
+                                Project</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <footer class="lastSection pt-3">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4">
+                    <p>Copyright &copy; Your Website 2021</p>
+                </div>
+                <div class="d-flex col-md-4 text-center  socialMedia">
+
+                    <div class="ml-3 socialMediaLink pt-2
+                  text-center"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                    <div class="ml-3 socialMediaLink pt-2
+                  text-center"><a href="#"><i class="fab fa-facebook"></i></a></div>
+                    <div class="ml-3 socialMediaLink pt-2
+                  text-center"><a href="#"><i class="fab fa-linkedin"></i></a></div>
+                </div>
+                <div class="col-md-4 d-flex text-center footer__info__last">
+                    <a class="mr-3" href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
 
 
 
-
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="/js/index.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/index.js"></script>
 
 
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
 
-    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
 
 </html>
